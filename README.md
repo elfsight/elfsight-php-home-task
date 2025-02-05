@@ -15,7 +15,7 @@ Implement the service which meets the requirements enlisted below.
 ### Non-functional
 
 - A user can access a service via HTTP API.
-- Its implemented with `PHP` and `Laravel`/`Symphony`.
+- Its implemented with `PHP` and `Laravel`/`Symfony`.
 - It uses either `MySQL`/`MariaDB` or `PostgreSQL`.
 - Its free of bugs and works smoothly.
 - _(recommended)_ It is covered with tests.
