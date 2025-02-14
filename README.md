@@ -15,9 +15,10 @@ Implement the service which meets the requirements enlisted below.
 ### Non-functional
 
 - A user can access a service via HTTP API.
-- Its implemented with `PHP` and `Laravel`/`Symfony`.
+- Its implemented with `PHP` and `Symfony` _(recommended)_ or `Laravel`.
 - It uses either `MySQL`/`MariaDB` or `PostgreSQL`.
 - Its free of bugs and works smoothly.
+- Its should support containerization and be ready to run in Docker directly from the project folder.
 - _(recommended)_ It is covered with tests.
 
 ## Hints
