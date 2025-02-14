@@ -21,7 +21,7 @@ Create a service that meets the following requirements:
 - It should be built using **PHP** and **Symfony** _(recommended)_ or **Laravel**.
 - The database can be either **MySQL**/**MariaDB** or **PostgreSQL**.
 - The application should be free of bugs and function smoothly.
-- It should support **containerization** and be ready to run in **Docker** directly from the project folder.
+- It should be set up for containerization and be ready to run locally using Docker Compose.
 - _(Optional, but recommended)_ Include tests to ensure the service works correctly.
 
 ## Hints
