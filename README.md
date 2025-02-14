@@ -1,34 +1,37 @@
 # Elfsight PHP Home Task
 
-Hi,
+Hi there,
 
-We're happy to welcome you to the next stage of our hiring process — the home task.
+Welcome to the next stage of our hiring process! We're excited to have you tackle this home task.
 
-## The task
-Implement the service which meets the requirements enlisted below.
+## The Task
+Create a service that meets the following requirements:
 
-### Functional
-- A user can add a review for a Rick and Morty episode (the list of episodes are available via public [API](https://rickandmortyapi.com/documentation/#get-all-episodes)).
-- An added review is being automatically rated (from 0 to 1) using the [sentiment analysis](https://en.wikipedia.org/wiki/Sentiment_analysis).
-- A user can retrieve an episode summary data which contains episode name, its release date, an average value of sentiment and top 3 reviews received.
+### Functional Requirements
+- A user should be able to submit a review for a **Rick and Morty** episode (you can get the episode list from the [public API](https://rickandmortyapi.com/documentation/#get-all-episodes)).
+- Each review will be automatically rated (on a scale from 0 to 1) using **sentiment analysis**.
+- A user can request an episode's summary, which includes:
+  - the episode name;
+  - release date;
+  - average sentiment score;
+  - last 3 reviews for that episode.
 
-### Non-functional
-
-- A user can access a service via HTTP API.
-- Its implemented with `PHP` and `Symfony` _(recommended)_ or `Laravel`.
-- It uses either `MySQL`/`MariaDB` or `PostgreSQL`.
-- Its free of bugs and works smoothly.
-- Its should support containerization and be ready to run in Docker directly from the project folder.
-- _(recommended)_ It is covered with tests.
+### Non-Functional Requirements
+- The service should be accessible via an HTTP API.
+- It should be built using **PHP** and **Symfony** _(recommended)_ or **Laravel**.
+- The database can be either **MySQL**/**MariaDB** or **PostgreSQL**.
+- The application should be free of bugs and function smoothly.
+- It should support **containerization** and be ready to run in **Docker** directly from the project folder.
+- _(Optional, but recommended)_ Include tests to ensure the service works correctly.
 
 ## Hints
-- We're not asking you to implement the sentiment analysis by yourself rather encouraging use of a public API or an open-source utility you find suitable. 
-- In the home task, we're not concerned about identity and access management. So, you can come up with a very basic implementation of authentication or skip it at all.
+- You don't need to implement sentiment analysis from scratch. Feel free to use an existing API or open-source library for that.
+- Identity and access management isn't a focus for this task, so you can skip authentication or implement a simple solution.
 
 ---
 
-Please, don't hesitate to reach out to us if you have any questions or in case you face an issue.
+If you have any questions or run into issues, don't hesitate to reach out.
 
-We wish you the best. Happy codding!
+Good luck, and happy coding!
 
-Elfsight Engineering Team.
+The Elfsight Engineering Team
